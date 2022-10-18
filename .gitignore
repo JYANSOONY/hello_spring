@@ -1,4 +1,11 @@
 
 .gradle/7.5/executionHistory/executionHistory.bin
+.gradle
+/build/
+/example/
 .idea/gradle.xml
-.idea/gradle.xml
+idea
+.idea
+.idea/xml
+out
+build
