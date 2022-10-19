@@ -6,12 +6,13 @@ import hello.hellospring.repository.MemoryMemberRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class MemoryMemberRepositoryTest {
+public class MemoryMemberRepositoryTest{
 
     MemoryMemberRepository repository = new MemoryMemberRepository();
 
