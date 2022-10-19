@@ -9,13 +9,13 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service
+//@Service
 public class MemberService {
     private final MemberRepository memberRepository;
 
+//    @Autowired
     /* new 안하고 외부에서 넣어지게 변경함
     * 디펜더시이젝션(DI)*/
-    @Autowired
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
